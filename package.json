@@ -4,9 +4,9 @@
   "description": "Blog app written in Next.js with typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server1.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server1.js"
   },
   "repository": "https://github.com/aliyev12/next-typescript-blog.git",
   "author": "Abdul Aliyev",
